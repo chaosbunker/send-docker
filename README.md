@@ -1,9 +1,3 @@
-This is taken from [https://github.com/nrobinaubertin/dockerfiles](https://github.com/nrobinaubertin/dockerfiles) for the purpase of creating an automated build for [dockerbunker](https://github.com/chaosbunker/dockerbunker)
-
-All credit goes to [nrobinaubertin](https://github.com/nrobinaubertin). Original README.md below.
-
----------------------------
-
 Send
 ====
 *Simple, lightweight and secure Send container based on Alpine Linux*
@@ -23,6 +17,7 @@ Propose a lightweight and secure container that is easy to setup.
 ### Run-time variables
 - **UID**: (Optional) The UID executing the server
 - **GID**: (Optional) The GID executing the server
+- **MAX_EXPIRE_DAYS**: (Optional) Maximum days before an upload expires
 
 ### Ports
 - **1443**
