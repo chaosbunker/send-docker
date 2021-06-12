@@ -1,6 +1,6 @@
 FROM node:10-buster AS builder
 
-ARG SEND_VERSION=v3.3.2
+ARG SEND_VERSION=v3.4.12
 WORKDIR /build
 
 RUN set -xe \
